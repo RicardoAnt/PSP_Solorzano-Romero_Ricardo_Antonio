@@ -13,7 +13,11 @@ cin >> altura;
 
 int area = base * altura;
 
-cout << "El area del rectangulo es "<< area << endl;
+if (base = altura){
+    cout << "El area es " << area << " y es un cuadrado";
+}else{
+    cout << "El area del rectangulo es "<< area << endl;
+}
 
 return 0;
 }
